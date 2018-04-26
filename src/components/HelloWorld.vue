@@ -48,9 +48,9 @@ export default {
     top: 45px;
     left: calc(50% - 1380px/2 + 50px);
     height: 120px;
-    width: 200px;
+    width: 400px;
     background: url("../assets/logo.jpg") no-repeat;
-    background-size: 200px 120px;
+    background-size: 400px 120px;
   }
   .header {
     height: 45px;
