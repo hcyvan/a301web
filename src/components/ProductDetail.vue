@@ -67,6 +67,7 @@
           <li>邮箱: 123456@gmail.com</li>
           <li>电话: 18888888888</li>
           <li>地址: 上海市闵行区立跃路2995号</li>
+          <li class="to-seller"><a href="/seller">进入店铺</a></li>
         </ul>
       </div>
     </div>
@@ -211,6 +212,16 @@ export default {
   }
   .cr .seller .name {
     margin: 10px 0 20px;
+  }
+  .cr .seller .to-seller {
+    margin-top: 24px;
+  }
+  .cr .seller .to-seller a {
+    padding: 4px 8px;
+    background: #2a9930;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
   }
   .tab {
     box-sizing: padding-box;

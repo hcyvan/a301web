@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import SearchResult from '@/components/SearchResult'
 import ProductDetail from '@/components/ProductDetail'
+import SellerPage from '@/components/SellerPage'
 import Register from '@/components/Account/Register'
 import Login from '@/components/Account/Login'
 
@@ -22,6 +23,10 @@ export default new Router({
         {
           path: 'detail',
           component: ProductDetail
+        },
+        {
+          path: 'seller',
+          component: SellerPage
         }
       ]
     },
